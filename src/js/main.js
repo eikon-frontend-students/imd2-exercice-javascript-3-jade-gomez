@@ -1,3 +1,9 @@
-var empty = document.querySelector(".form-input");
+var input = document.querySelector(".form-input");
 var button = document.querySelector(".form-button");
-var article = document.querySelector(".articles-item");
+var articles = document.querySelectorAll(".articles-item");
+
+function research() {
+  var text = input.value;
+}
+
+button.addEventListener("click");
